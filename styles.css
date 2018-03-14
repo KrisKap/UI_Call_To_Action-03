@@ -1,0 +1,129 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #2d3436;
+}
+
+.cta {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 70px 0 70px 0;
+  width: 100%;
+  background:linear-gradient(rgba(20,20,20, .6),
+                             rgba(20,20,20, .6)),
+                             url('img/ski-run-3187602_1920.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+
+
+.container {
+  padding: 0 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.cta__title {
+  font-family: 'Lato', sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+
+.cta__text {
+  display: inline-block;
+  font-size: 1.2em;
+  color: #fff;
+  line-height: 1.3;
+  max-width: 500px;
+  margin-bottom: 50px;
+}
+
+.cta__form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.cta__input {
+  width: 60%;
+  max-width: 250px;
+
+}
+
+.cta__input,
+.cta__button {
+  padding: 15px 20px;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.cta__input {
+  color: #fff;
+  background-color: rgba(150, 150, 150, .6);
+}
+
+.cta__input:focus,
+.cta__button:focus {
+  outline-style: none;
+}
+
+.cta__input::placeholder {
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.cta__input:focus::placeholder {
+  color: transparent;
+  text-indent: 100px;
+}
+
+.cta__button {
+  margin-left: -5px;
+  background-color: #fff;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #444;
+  transition: all 0.4s;
+}
+
+.cta__button:hover {
+  color: #fff;
+  background-color: #1b8bf9;
+}
+
+.cta__social-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.cta__link{
+  padding: 5px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 380px) {
+
+  .cta__title {
+    font-size: 2.5em;
+  }
+
+  .cta__text {
+    font-size: 1.1em;
+  }
+
+}
